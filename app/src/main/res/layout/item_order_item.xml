@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dd.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:sl_shadowRadius="15dp"
+    app:sl_shadowColor="#24000000"
+    app:sl_dx="0dp"
+    app:sl_dy="0dp"
+    app:sl_cornerRadius="15dp"
+    >
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@android:color/white"
+        android:elevation="0dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/subcategory_design_image"
+                    android:layout_width="100dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/fake_design"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"/>
+                <com.github.ybq.android.spinkit.SpinKitView
+                    android:id="@+id/spin_kit"
+                    style="@style/SpinKitView.DoubleBounce"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    app:SpinKit_Color="@color/colorAccent" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/subcategory_design_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                tools:text="معايدة طفل"
+                android:textColor="@android:color/black"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/subcategory_design_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                tools:text="10*10 سم"
+                android:textColor="@color/colorAccent"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                />
+            <TextView
+                android:id="@+id/subcategory_design_salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                tools:text="10.5 $"
+                android:textColor="@color/colorAccent"
+                android:textSize="13sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="10dp" />
+        </LinearLayout>
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+</com.dd.ShadowLayout>

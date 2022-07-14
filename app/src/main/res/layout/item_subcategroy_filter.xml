@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="10dp">
+
+    <TextView
+        android:id="@+id/subcategory_filter_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_semi_bold"
+        android:gravity="center_horizontal"
+        android:paddingVertical="5dp"
+        tools:text="جميع البطاقات"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/subcategory_filter_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:riv_corner_radius="5dp" />
+</LinearLayout>

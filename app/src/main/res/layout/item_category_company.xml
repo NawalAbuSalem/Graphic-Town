@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="20dp">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/category_image_item"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/fake_category_image"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:riv_corner_radius="10dp"/>
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_tri"
+        android:adjustViewBounds="true"
+        app:riv_corner_radius="10dp"
+        android:background="@drawable/company_category_background"
+        android:paddingVertical="10dp"/>
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.DoubleBounce"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/colorAccent" />
+    <TextView
+        android:id="@+id/company_category_name_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/Fake_Albums"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@android:color/white"/>
+</FrameLayout>

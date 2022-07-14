@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "656188108233",
+    "firebase_url": "https://graphic-town-ff675.firebaseio.com",
+    "project_id": "graphic-town-ff675",
+    "storage_bucket": "graphic-town-ff675.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656188108233:android:b613d57d8d90bc3caf8c18",
+        "android_client_info": {
+          "package_name": "com.nns.graphictown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656188108233-lmrml5fico7lr6nhjqbfocaum2au3dl5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nns.graphictown",
+            "certificate_hash": "05bdbce4847f1f83827ddcfbb5b7a1bf86741a94"
+          }
+        },
+        {
+          "client_id": "656188108233-vm4jh2bmgqhvo5cjispal1vg7db5qstf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfzAVS1cGDRcIl3B4-JsYQ1qZcgdJJbJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656188108233-vm4jh2bmgqhvo5cjispal1vg7db5qstf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

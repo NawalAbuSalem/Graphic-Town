@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">Graphic Town</string>
+    <string name="graphic_town">Graphic Town</string>
+    <string name="welcome">Welcome</string>
+    <string name="let_us_confirm_the_beautiful_moments">Let us confirm the beautiful moments</string>
+    <string name="create_new_account">Create account</string>
+    <string name="login">Login</string>
+    <string name="Login">Login</string>
+    <string name="Email_address">Email</string>
+    <string name="Password">Password</string>
+    <string name="Forgot_Password">Forgot password ?</string>
+    <string name="sign_in">login</string>
+    <string name="Using">Using</string>
+    <string name="create_New_account">Create new account</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="send">Send</string>
+    <string name="Choose_Account_Type">Choose Account Type</string>
+    <string name="Company_Account">Company Account</string>
+    <string name="Personal_Account">Personal Account</string>
+    <string name="Create_New_Account">Create New Account</string>
+    <string name="User_Name">User Name</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="create">Sign up</string>
+    <string name="Settings">Settings</string>
+    <string name="Change_Password">Change Password</string>
+    <string name="Current_Password">Current Password</string>
+    <string name="New_Password">New Password</string>
+    <string name="Done">Done</string>
+    <string name="Language">Language</string>
+    <string name="Arabic">العربية</string>
+    <string name="English">English</string>
+    <string name="My_Profile">Profile</string>
+    <string name="Orders">Orders</string>
+    <string name="About_us">About us</string>
+    <string name="Contact_us">Contact us</string>
+    <string name="Logout">Logout</string>
+    <string name="Categories">Category</string>
+    <string name="Fake_Albums">Albums</string>
+    <string name="Fake_text">We are a group of digital branding experts and media
+enthusiasts. We’ve been serving our clients’ printing needs and beyond for over 25 years.
+
+We are focused on developing successful relationships with
+our clients and partners. And to do that in our dynamic market,
+we are always improving our methods to deliver top quality at
+reasonable costs.
+If you want something done right, bring it to us
+We realize your order has to be ready on time, and our reputation is
+built upon that promise.
+We are committed to delivering high quality printing to satisfy and exceed our customer’s expectations. That’s why we are always listening
+for feedback regarding our products or services. </string>
+    <string name="Name">Name</string>
+    <string name="Address">Address</string>
+    <string name="Message_Text">Message</string>
+    <string name="Contact_us_send_successfully">The message has been sent.\n Thank you for contacting us</string>
+    <string name="update">Update</string>
+    <string name="Update_profile">Update profile</string>
+    <string name="save">Save</string>
+    <string name="start_designing">Start Designing</string>
+    <string name="description">Description</string>
+    <string name="Material_Type">Material Type:</string>
+    <string name="material_dimension">Material Dimension:</string>
+    <string name="number_of_picture">Number of picture:</string>
+    <string name="designed_by">Designed By:</string>
+    <string name="Size">Size</string>
+    <string name="Quntity">Quantity</string>
+    <string name="Cart">Cart</string>
+    <string name="total_price">Total Price:</string>
+    <string name="pay">Pay</string>
+    <string name="Keep_shopping">Keep shopping</string>
+    <string name="choose_images">Choose Images</string>
+    <string name="connect_with_facebook">Connect with Facebook</string>
+    <string name="connect_with_insatgram">Connect with Instagram</string>
+    <string name="Next">Next</string>
+    <string name="one_image">1 image</string>
+    <string name="two_image">2 image</string>
+    <string name="images">images</string>
+    <string name="Images">Images</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="add_more_images">Add more images</string>
+
+
+    <string name="facebook_application_id" translatable="false">638976930063747</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb638976930063747</string>
+
+
+    <string name="facebook_app_id">638976930063747</string>
+    <string name="fb_login_protocol_scheme">fb638976930063747</string>
+    <string name="client_id">693241371266259</string>
+    <string name="callback_url">https://instagram.com/</string>
+    <string name="base_url">https://api.instagram.com/</string>
+    <string name="this_field_is_required">This field is required</string>
+    <string name="Enter_valid_email">Enter valid Email</string>
+    <string name="Loading">Loading</string>
+    <string name="doesnt_match">The two password doesn\'t match</string>
+    <string name="password_must_be_at_least_6_character">Password must be at least 6 character</string>
+    <string name="creating_new_account">Creating New Account</string>
+    <string name="Logouting">Logout</string>
+    <string name="no_internet_connection">There is no internet connection</string>
+    <string name="Log_in">Login</string>
+    <string name="updating_profile">Updating profile</string>
+    <string name="profile_updated_successfully">Profile has been successfully updated !</string>
+    <string name="sending_message">Sending message</string>
+    <string name="message_is_sent">The message is sent ,check your inbox !</string>
+    <string name="refresh">Refresh</string>
+    <string name="show_all">Show All</string>
+    <string name="cm"> cm </string>
+    <string name="you_must_login">You must be logged in to complete the order</string>
+    <string name="sign_in_now">Login Now</string>
+    <string name="login_add_to_cart">To add to the cart, you must be logged in</string>
+    <string name="login_show_profile">To show the profile, you must be logged in</string>
+    <string name="login_show_orders">To show your orders, you must be logged in</string>
+    <string name="login_out">To logout, you must be logged in</string>
+    <string name="already_login">You have been already logged in</string>
+    <string name="Guest_user">Guest User</string>
+    <string name="login_show_cart_content">To show the cart content, you must be logged in</string>
+    <string name="adding_to_cart">Adding to cart</string>
+    <string name="product_added_successfully">The product has been added to the cart successfully</string>
+    <string name="go_to_cart">Go to the cart</string>
+    <string name="empty_cart">Your cart is empty \n Start designing your first project</string>
+    <string name="invalid_quantity">The quantity must be more than or equal 1</string>
+    <string name="cart_upadating">updating the quantity</string>
+    <string name="the_quantity_is_updated_successflly">The quantity is updated successfully</string>
+    <string name="the_operation_is_failed">The operation is failed</string>
+    <string name="confirm_deletion_text">Are you sure that you want to delete the design ?</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="deleting_item">Deleting the design</string>
+    <string name="the_design_is_deleted_successfully">The design is deleted successfully</string>
+    <string name="Changing_Language">Changing Language</string>
+    <string name="login_change_password">To change your password, you must be logged in</string>
+    <string name="changing_password">Changing password</string>
+    <string name="invalid_current_password">Invalid Current Password</string>
+    <string name="password_updated_successfully">The Password is updated successfully</string>
+    <string name="in_processing">In Processing (1)</string>
+    <string name="order">Order</string>
+    <string name="order_status">Order Status :</string>
+    <string name="order_date">Order Date :</string>
+    <string name="order_delivery_date">Delivery Date :</string>
+    <string name="google_map_api_key">AIzaSyBPSFNgoVT7-_Iafk5Qa7VqcGkps_AIpM8</string>
+    <string name="title_activity_user_location">Map</string>
+    <string name="payment_methods">Payment</string>
+    <string name="pay_by">Pay by :</string>
+    <string name="MasterCard">MasterCard</string>
+    <string name="Cash">Cash on receipt</string>
+    <string name="Congratulations">Congratulations! Your request has been successfully completed.</string>
+    <string name="order_review">The order will be reviewed by the specialists And contact with you as soon as possible to schedule the receipt.</string>
+    <string name="checkTheOrder">check the order</string>
+    <string name="ordering">Ordering</string>
+    <string name="Cancel">Cancel</string>
+    <string name="locationGpsTitle">GPS Enabling</string>
+    <string name="gpsNotEnabled">To get the location you should enable GPS</string>
+    <string name="place_of_delivery">Place of delivery</string>
+    <string name="choose_place">Choose place of delivery</string>
+    <string name="choose_profile_image">Choose Profile Image</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="confirm_verification_code">Confirm Verification Code</string>
+    <string name="verify">verify</string>
+    <string name="loading">Loading</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="sar">$</string>
+    <string name="amount">Amount : </string>
+    <string name="select">Select Location</string>
+    <string name="empty_order">There is no order yet \nstart desiging your finst project</string>
+    <string name="order_details">Order Details</string>
+    <string name="order_number">Order Number</string>
+    <string name="Order_date">Order Date</string>
+    <string name="Order_delivery_date">Delivery Date</string>
+    <string name="Order_status">Order Status</string>
+    <string name="products">Products</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="Order_Price">Order Price</string>
+    <string name="delivery_price">Delivery Price</string>
+    <string name="order_total_price">Order Total Price</string>
+    <string name="Order_Rating">Order Rating</string>
+    <string name="including_fee">include fee</string>
+    <string name="tax_number">All prices include value-added tax - tax number </string>
+    <string name="you_have_been_already_rated_the_order">You have already rated the order</string>
+    <string name="Rate_Order">Rate Order</string>
+    <string name="Ok">Ok</string>
+</resources>

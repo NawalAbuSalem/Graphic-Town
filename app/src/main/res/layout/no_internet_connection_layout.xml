@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="180dp"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:id="@+id/no_internet_layout"
+    android:background="@android:color/white">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_wifi_off_24"
+            android:layout_marginBottom="30dp"
+            android:tint="@color/colorAccent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_internet_connection"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/refresh_button"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:background="@drawable/login_button_background"
+            android:text="@string/refresh"
+            android:textSize="18sp"
+            android:fontFamily="@font/nunito_semi_bold"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+

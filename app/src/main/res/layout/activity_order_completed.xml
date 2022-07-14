@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.OrderCompletedActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Congratulations"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunito_semi_bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_review"
+        android:textSize="15sp"
+        android:fontFamily="@font/nunito_semi_bold"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="45dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_order_compeleted"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"
+        android:text="@string/checkTheOrder"
+        android:textSize="18sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:onClick="checkTheOrder"/>
+</LinearLayout>

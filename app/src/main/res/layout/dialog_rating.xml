@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="35dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Rate_Order"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:textColor="@android:color/black" />
+            <RatingBar
+                android:id="@+id/rating_bar_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:secondaryProgressTint="#00000000"
+                android:stepSize="1"
+                android:progressTint="#FFDF00"
+                android:indeterminateTint="#1AFFDF00"
+                android:progressBackgroundTint="#CDBAB9B1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:id="@+id/ok"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background"
+                    android:text="@string/Ok"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textAllCaps="false"
+                    android:layout_marginEnd="30dp"/>
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_button_background"
+                    android:text="@string/Cancel"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+</FrameLayout>

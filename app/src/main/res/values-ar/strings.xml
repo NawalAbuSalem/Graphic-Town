@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Graphic Town</string>
+    <string name="graphic_town">جرافيك تاون</string>
+    <string name="welcome">مرحبا بك</string>
+    <string name="let_us_confirm_the_beautiful_moments">هيا لنوثق اللحظات الجميلة</string>
+    <string name="create_new_account">إنشاء حساب</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="Email_address">البريد الالكتروني</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="Forgot_Password">هل نسيت كلمة المرور ؟</string>
+    <string name="Using">باستخدام</string>
+    <string name="create_New_account">انشاء حساب جديد</string>
+    <string name="sign_in">دخول</string>
+    <string name="forgot_password">نسيت كلمة المرور</string>
+    <string name="send">ارسال</string>
+    <string name="Choose_Account_Type">اختر نوع الحساب</string>
+    <string name="Company_Account">حساب شركة</string>
+    <string name="Personal_Account">حساب شخصي</string>
+    <string name="Create_New_Account">تسجيل جديد</string>
+    <string name="User_Name">اسم المستخدم</string>
+    <string name="Phone_Number">رقم الهاتف</string>
+    <string name="Confirm_Password">تأكيد كلمة المرور</string>
+    <string name="create">تسجيل</string>
+    <string name="Settings">الإعدادات</string>
+    <string name="Change_Password">تغيير كلمة المرور</string>
+    <string name="Current_Password">كلمة المرور الحالية</string>
+    <string name="New_Password">كلمة المرور الجديدة</string>
+    <string name="Done">تم</string>
+    <string name="Language">اللغة</string>
+    <string name="Arabic">العربية</string>
+    <string name="English">English</string>
+    <string name="My_Profile">حسابي </string>
+    <string name="Orders">الطلبات</string>
+    <string name="About_us">نبذة عنا</string>
+    <string name="Contact_us">التواصل</string>
+    <string name="Logout">تسجيل خروج</string>
+    <string name="Categories">الأقسام</string>
+    <string name="Fake_Albums">ألبومات</string>
+    <string name="Fake_text">نحن مجموعة من خبراء العلامات التجارية الرقمية و لقد عملنا على تلبية احتياجات الطباعة لعملائنا لأكثر من 25 عامًا.
+
+نحن نركز على تطوير علاقات ناجحة مع
+عملائنا وشركائنا. وللقيام بذلك في السوق،
+نحن نعمل دائمًا على تحسين أساليبنا لتقديم أعلى جودة في
+تكاليف معقولة.
+إذا كنت تريد القيام بشيء ما بشكل صحيح ، فاحضره لنا
+نحن ندرك أن طلبك يجب أن يكون جاهزًا في الوقت المحدد .
+نحن ملتزمون بتقديم طباعة عالية الجودة لإرضاء وتجاوز توقعات عملائنا.</string>
+    <string name="Name">الاسم</string>
+    <string name="Address">العنوان</string>
+    <string name="Message_Text">الرسالة</string>
+    <string name="Contact_us_send_successfully">تم إرسال الرسالة شكرا" على
+التواصل معنا</string>
+    <string name="update">تعديل</string>
+    <string name="Update_profile">تعديل حسابي</string>
+    <string name="save">حفظ</string>
+    <string name="start_designing">ابدأ تصميمك</string>
+    <string name="description">الوصف</string>
+    <string name="Material_Type">نوع المادة:</string>
+    <string name="material_dimension">أبعاد التصميم:</string>
+    <string name="number_of_picture">عدد الصور:</string>
+    <string name="designed_by">صمم بواسطة:</string>
+    <string name="Size">الحجم</string>
+    <string name="Quntity">العدد</string>
+    <string name="Cart">عربة التسوق</string>
+    <string name="total_price">المجموع الكلي:</string>
+    <string name="pay">الدفع</string>
+    <string name="Keep_shopping">الاستمرار بالتسوق</string>
+    <string name="choose_images">اختر الصور</string>
+    <string name="connect_with_facebook">الاتصال بالفيسبوك</string>
+    <string name="connect_with_insatgram">الاتصال بالانستجرام</string>
+    <string name="Next">التالي</string>
+    <string name="one_image">صورة</string>
+    <string name="two_image">صورتان</string>
+    <string name="images">صور</string>
+    <string name="Images">الصور</string>
+    <string name="add_to_cart">إضافة الي السلة</string>
+    <string name="add_more_images">اضف المزيد من الصور</string>
+    <string name="facebook_app_id">638976930063747</string>
+    <string name="fb_login_protocol_scheme">fb638976930063747</string>
+    <string name="client_id">693241371266259</string>
+    <string name="callback_url">https://instagram.com/</string>
+    <string name="base_url">https://api.instagram.com/</string>
+    <string name="this_field_is_required">هذا الحقل مطلوب</string>
+    <string name="Enter_valid_email">أدخل بريد الكتروني صالح</string>
+    <string name="Loading">جار التحميل</string>
+    <string name="doesnt_match">كلمات المرور غير متطابقة</string>
+    <string name="password_must_be_at_least_6_character">كلمة المرور يجب أن تكون على الاقل 6 حروف</string>
+    <string name="creating_new_account">جارٍ انشاء حساب جديد</string>
+    <string name="Logouting">جارٍ تسجيل الخروج</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالانترنت</string>
+    <string name="Log_in">جارٍ تسجيل الدخول</string>
+    <string name="updating_profile">جارٍ تحديث البروفايل</string>
+    <string name="profile_updated_successfully">تم تحديث معلومات الحساب بنجاح</string>
+    <string name="sending_message">جارٍ ارسال الرسالة</string>
+    <string name="facebook_application_id" translatable="false">638976930063747</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb638976930063747</string>
+    <string name="message_is_sent">تم ارسال الايميل بنجاح,تفقد بريدك الالكتروني</string>
+    <string name="refresh">تحديث</string>
+    <string name="show_all">عرض الكل</string>
+    <string name="cm"> سم </string>
+    <string name="you_must_login">لاتمام الطلب يجب عليك تسجيل الدخول أولا</string>
+    <string name="sign_in_now">سجل دخولك الآن</string>
+    <string name="login_add_to_cart">للاضافة الي السلة يجب عليك تسجيل الدخول أولا</string>
+    <string name="login_show_profile" >لعرض البروفايل يجب عليك تسجيل الدخول أولا</string>
+    <string name="login_show_orders" >لعرض الطلبات يجب عليك تسجيل الدخول أولا</string>
+    <string name="login_out" >لتسجيل الخروج يجب عليك تسجيل الدخول أولا</string>
+    <string name="already_login">لقد قمت بتسجيل دخولك سابقاً</string>
+    <string name="Guest_user">حساب زائر</string>
+    <string name="login_show_cart_content" >لعرض محتويات السلة يجب عليك تسجيل الدخول أولاً</string>
+    <string name="adding_to_cart">جارٍ الإضافة الى السلة</string>
+    <string name="product_added_successfully">تمت الاضافة الى السلة بنجاح</string>
+    <string name="go_to_cart">الذهاب الى السلة</string>
+    <string name="empty_cart">عربة التسوق فارغة\nابدأ بتصميم مشروعك الأول</string>
+    <string name="invalid_quantity">يجب أن تكون الكمية أكبر من أو تساوي 1</string>
+    <string name="cart_upadating">جارٍ تعديل الكمية</string>
+    <string name="the_quantity_is_updated_successflly">تم تعديل الكمية بنجاح</string>
+    <string name="the_operation_is_failed">العملية فشلت</string>
+    <string name="confirm_deletion_text">هل أنت متأكد من رغبتك
+ بحذف التصميم؟</string>
+    <string name="No">لا</string>
+    <string name="Yes">نعم</string>
+    <string name="deleting_item" >جارٍ حذف التصميم</string>
+    <string name="the_design_is_deleted_successfully">تم حذف المنتج بنجاح</string>
+    <string name="Changing_Language">جارٍ تغيير اللغة</string>
+    <string name="login_change_password" >لتغيير كلمة المرور يجب عليك تسجيل الدخول أولاً</string>
+    <string name="changing_password">جارٍ تغيير كلمة المرور</string>
+    <string name="invalid_current_password">كلمة المرور الحالية خاطئة</string>
+    <string name="password_updated_successfully">تم تغيير كلمة المرور بنجاح</string>
+    <string name="in_processing">جاري التنفيذ(1)</string>
+    <string name="order">طلب</string>
+    <string name="order_status">حالة الطلب :</string>
+    <string name="order_date">تاريخ الطلب :</string>
+    <string name="order_delivery_date">تاريخ التسليم :</string>
+    <string name="google_map_api_key">AIzaSyBPSFNgoVT7-_Iafk5Qa7VqcGkps_AIpM8</string>
+    <string name="title_activity_user_location">Map</string>
+    <string name="payment_methods">الدفع</string>
+    <string name="pay_by">الدفع باستخدام :</string>
+    <string name="MasterCard">بطاقة ائتمانية</string>
+    <string name="Cash">الدفع عند الاستلام</string>
+    <string name="Congratulations">تهانينا لقد تم طلبك بنجاح.</string>
+    <string name="order_review">سيتم مراجعة الطلب من قبل المختصين
+و التواصل معك بأقرب وقت لتحديد موعد الاستلام</string>
+    <string name="checkTheOrder">تفقد الطلب</string>
+    <string name="ordering">جارٍ الطلب</string>
+    <string name="Cancel">الغاء الأمر</string>
+    <string name="locationGpsTitle">تفعيل GPS</string>
+    <string name="gpsNotEnabled">للحصول على الموقع يجب تفعيل GPS</string>
+    <string name="place_of_delivery">مكان الاستلام</string>
+    <string name="choose_place">"Choose place of delivery "</string>
+    <string name="choose_profile_image">يرجي اختيار صورة شخصية</string>
+    <string name="verification_code">كود التحق</string>
+    <string name="confirm_verification_code">تأكيد كود التحقق</string>
+    <string name="verify">تحقق</string>
+    <string name="loading">جارٍ التحميل</string>
+    <string name="reset_password">اعادة تعيين كلمة المرور</string>
+    <string name="sar">$</string>
+    <string name="amount">الكمية : </string>
+    <string name="select">اختار الموقع</string>
+    <string name="empty_order">لا يوجد طلبات سابقة
+        \n
+        ابدأ بتصميم مشروعك الاول</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="order_number">رقم الطلب</string>
+    <string name="Order_date">تاريخ الطلب</string>
+    <string name="Order_delivery_date">تاريخ</string>
+    <string name="Order_status">حالة الطلب</string>
+    <string name="products">المنتجات</string>
+    <string name="payment_method">طريقة الدفع</string>
+    <string name="Order_Price">سعر الطلب</string>
+    <string name="delivery_price">توصيل الطلب</string>
+    <string name="order_total_price">إجمالي الطلب</string>
+    <string name="Order_Rating">تقييم الطلب</string>
+    <string name="including_fee">شامل ضريبة</string>
+    <string name="tax_number">جميع الاسعار شاملة ضريبة القيمة المضافة - الرقم الضريبي </string>
+    <string name="you_have_been_already_rated_the_order">لقد قمت بالفعل بتقييم الطلب</string>
+    <string name="Rate_Order">تقييم الطلب</string>
+    <string name="Ok">تم</string>
+
+</resources>

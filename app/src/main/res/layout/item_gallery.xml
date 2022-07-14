@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="117dp"
+    android:layout_height="129dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp">
+  <ImageView
+      android:id="@+id/gallery_image"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:src="@drawable/fake_flower"
+      android:scaleType="centerCrop"/>
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:paddingTop="5dp"
+      android:paddingStart="5dp">
+  <CheckBox
+        android:id="@+id/image_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top" />
+  </FrameLayout>
+  <com.github.ybq.android.spinkit.SpinKitView
+      android:id="@+id/spin_kit"
+      style="@style/SpinKitView.DoubleBounce"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center"
+      app:SpinKit_Color="@color/colorAccent" />
+</FrameLayout>

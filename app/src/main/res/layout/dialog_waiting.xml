@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_margin="15dp"
+        android:padding="15dp">
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            style="@style/SpinKitView.FadingCircle" />
+        <TextView
+            android:id="@+id/waiting_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Loading"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:fontFamily="@font/nunito_semi_bold"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

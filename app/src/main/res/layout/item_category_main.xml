@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:cardCornerRadius="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/category_image_item"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:background="@drawable/category_background"
+        app:riv_corner_radius="10dp"/>
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.DoubleBounce"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/colorAccent" />
+    <TextView
+        android:id="@+id/category_name_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Fake_Albums"
+        android:gravity="start"
+        android:textSize="13sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/nunito_semi_bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/category_name_background"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="15dp"/>
+</FrameLayout>

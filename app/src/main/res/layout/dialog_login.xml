@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<com.google.android.material.circularreveal.cardview.CircularRevealCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="25dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dialog_login_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/you_must_login"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:fontFamily="@font/nunito_semi_bold"
+            android:textColor="@android:color/black" />
+        <Button
+            android:id="@+id/dialog_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_background"
+            android:text="@string/sign_in_now"
+            android:textSize="18sp"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:onClick="login"/>
+    </LinearLayout>
+</com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+</FrameLayout>
